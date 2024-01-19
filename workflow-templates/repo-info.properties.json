@@ -1,0 +1,11 @@
+{
+  "name": "Repo Info Workflow",
+  "description": "Repo informational starter workflow.",
+  "iconName": "check-square",
+  "categories": [
+      "Text"
+  ],
+  "filePatterns": [
+     ".*\\.md$"
+  ]
+}
