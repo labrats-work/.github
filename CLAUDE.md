@@ -27,7 +27,7 @@ This is the `labrats-work/.github` special repository. It contains:
 
 ## Agent Roles
 
-This repository uses the `labrats-work` multi-agent system. Agents are triggered by GitHub issue labels:
+This repository uses the `labrats-work` multi-agent system. Agents are triggered by @mentions in issue and PR comments:
 - `ai-developer` — implements changes, creates PRs
 - `ai-reviewer` — reviews PRs
 - `ai-docs` — documentation reviews and improvements
