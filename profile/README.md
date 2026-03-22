@@ -28,7 +28,7 @@
 | **Backend** | Node.js, Python (Flask), Go, .NET Core |
 | **Database** | MongoDB, Redis, SQLite |
 | **Infrastructure** | Kubernetes, FluxCD, Terraform, Ansible |
-| **CI/CD** | GitHub Actions, ARC Runners, Kaniko |
+| **CI/CD** | GitHub Actions, ARC Runners, Docker Build & Push |
 | **Monitoring** | Prometheus, Grafana, Goss |
 
 ## 📦 Featured Projects
