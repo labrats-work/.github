@@ -1,33 +1,18 @@
-# CLAUDE.md — labrats-work/.github
+# CLAUDE.md
 
-This file provides context for AI agents (Claude Code and others) working in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Repository Purpose
+## What This Is
 
-This is the `.github` special repository for the `labrats-work` GitHub organization. It controls:
+The `.github` special repository for the `labrats-work` org. Controls the org profile, workflow templates, and org-level automation.
 
-- **Organization profile** (`profile/README.md`) — shown at github.com/labrats-work
-- **Workflow templates** (`workflow-templates/`) — starter workflows surfaced in all org repos
-- **Org-level workflows** (`.github/workflows/`) — automation running at org scope
-
-## Key Files
-
-| Path | Purpose |
-|------|---------|
-| `profile/README.md` | Org profile displayed on GitHub — keep accurate and up to date |
-| `workflow-templates/*.yml` | Workflow templates — each must have a matching `.properties.json` |
-| `workflow-templates/*.properties.json` | Template metadata: `name`, `description`, `iconName`, `categories` |
-| `.github/workflows/repo-info.yml` | Example org workflow (repo info dump) |
-
-## Conventions
-
-- Workflow template YAMLs use `$default-branch` as a placeholder (replaced by GitHub when applied).
-- The corresponding `.properties.json` must match the template filename (without extension).
-- Keep `profile/README.md` reflecting the actual org tech stack and projects.
+- `profile/README.md` — shown at github.com/labrats-work; keep accurate
+- `workflow-templates/` — each template YAML must have a matching `.properties.json`
+- `.github/workflows/` — org-level automation
 
 ## AI Agent System
 
-This org uses multi-agent GitHub automation. Agents are triggered via issue/PR labels and `@mention` in comments:
+The org uses a multi-agent GitHub automation system. Agents are triggered by labels or `@mention` in issue/PR comments:
 
 | Agent | Trigger | Role |
 |-------|---------|------|
@@ -40,12 +25,6 @@ This org uses multi-agent GitHub automation. Agents are triggered via issue/PR l
 | `@ai-ops` | `ai-ops` label | Diagnoses failures |
 | `@ai-triage` | `ai-triage` label | Quick issue triage |
 
-The agent service is hosted in `apps.github-ai-agents`.
+Agent service hosted in `apps.github-ai-agents`.
 
-## Branch Naming
-
-Use `feat/`, `fix/`, `docs/`, `chore/`, `refactor/`, `test/` prefixes.
-
-## Commit Style
-
-Follow conventional commits: `type(scope): description` (imperative, under 72 chars).
+Workflow template `$default-branch` placeholder is replaced by GitHub when applied.
