@@ -48,6 +48,13 @@
 - **actions.common** — Reusable GitHub Actions workflows
 - **github-runners** — Self-hosted ARC runners configuration
 
+## 📚 Organization Record
+
+📖 **[docs.org](https://github.com/labrats-work/docs.org)** is the authoritative
+record of how this organization is built and governed — reference architectures
+(RADs), system designs (SADs), architecture decisions (ADRs), org-wide specs, and
+engineering best-practices. Start there to understand the platform.
+
 ## 🌟 Highlights
 
 - ✅ **100% GitOps** — All infrastructure changes via Git
