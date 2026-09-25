@@ -5,7 +5,7 @@ The `labrats-work` organization uses a multi-agent AI automation system powered 
 ## How It Works
 
 1. A human (or bot) opens or comments on an issue/PR.
-2. The agent service (`apps.github-ai-agents`) listens for webhook events.
+2. The agent service (`apps.ai-agents`) listens for webhook events.
 3. When an agent is triggered (via label or `@mention`), it clones the target repo and executes the task.
 4. The agent commits changes, creates a PR, and posts status comments.
 
@@ -71,7 +71,7 @@ Issue opened
 
 ## Infrastructure
 
-The agent service source is at `labrats-work/apps.github-ai-agents`. It uses:
+The agent service source is at `labrats-work/apps.ai-agents`. It uses:
 - GitHub App authentication via `GH_TOKEN`
 - Claude Sonnet/Haiku models via Anthropic API
 - Per-task repo cloning into isolated workspaces
