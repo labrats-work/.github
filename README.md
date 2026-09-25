@@ -36,11 +36,9 @@ workflow-templates/
   *.properties.json   # Metadata for each workflow template
 docs/
   workflow-templates.md   # Guide for workflow templates
-  ai-agents.md            # Overview of the org AI agent system
 ```
 
 ## Related
 
 - [labrats-work org profile](https://github.com/labrats-work)
 - [actions.common](https://github.com/labrats-work/actions.common) — Reusable GitHub Actions
-- [apps.ai-agents](https://github.com/labrats-work/apps.ai-agents) — AI agent service
