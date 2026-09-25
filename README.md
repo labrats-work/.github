@@ -43,4 +43,4 @@ docs/
 
 - [labrats-work org profile](https://github.com/labrats-work)
 - [actions.common](https://github.com/labrats-work/actions.common) — Reusable GitHub Actions
-- [apps.github-ai-agents](https://github.com/labrats-work/apps.github-ai-agents) — AI agent service
+- [apps.ai-agents](https://github.com/labrats-work/apps.ai-agents) — AI agent service

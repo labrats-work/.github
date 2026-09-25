@@ -25,6 +25,6 @@ The org uses a multi-agent GitHub automation system. Agents are triggered by lab
 | `@ai-ops` | `ai-ops` label | Diagnoses failures |
 | `@ai-triage` | `ai-triage` label | Quick issue triage |
 
-Agent service hosted in `apps.github-ai-agents`.
+Agent service hosted in `apps.ai-agents`.
 
 Workflow template `$default-branch` placeholder is replaced by GitHub when applied.
