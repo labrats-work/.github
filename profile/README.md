@@ -8,7 +8,7 @@ Every repo belongs to one layer, and its name says which ([ADR-0002](https://git
 
 | Layer | Prefix | What lives there | Examples |
 |-------|--------|------------------|----------|
-| 4 · Apps | `apps.*` | User-facing services | `apps.ai-agents`, `apps.my-budget`, `apps.my-diet`, `apps.life-systems` |
+| 4 · Apps | `apps.*` | User-facing services | `apps.ai-agents`, `apps.spaces`, `apps.space-diet`, `apps.identity` |
 | 3 · Platform | `platform.*` | Per-app deployment slices | `platform.shared` |
 | 2 · Runtime | `runtime.*` | Shared cluster substrate | `runtime.k8s.bor`, `runtime.k8s.bor.gitops` |
 | 1 · Infra | `infra.*` | Hardware, network, hosts | `infra.bor`, `infra.gx10`, `infra.nas-n5-pro` |
