@@ -11,7 +11,7 @@ Every repo belongs to one layer, and its name says which ([ADR-0002](https://git
 | 4 · Apps | `apps.*` | User-facing services | `apps.ai-agents`, `apps.spaces`, `apps.space-diet`, `apps.identity` |
 | 3 · Platform | `platform.*` | Per-app deployment slices | `platform.shared` |
 | 2 · Runtime | `runtime.*` | Shared cluster substrate | `runtime.k8s.bor`, `runtime.k8s.bor.gitops` |
-| 1 · Infra | `infra.*` | Hardware, network, hosts | `infra.bor`, `infra.gx10`, `infra.nas-n5-pro` |
+| 1 · Infra | `infra.*` | Hardware, network, hosts | `infra.bor`, `infra.nas-n5-pro` |
 | Support | `actions.*` `modules.*` `docs.*` | Shared CI, IaC modules, records | `actions.common`, `modules.terraform`, `docs.org` |
 
 ## Stack
@@ -19,7 +19,7 @@ Every repo belongs to one layer, and its name says which ([ADR-0002](https://git
 | Area | Technologies |
 |------|--------------|
 | **Compute** | Proxmox VE, kubeadm Kubernetes, Cilium, NVIDIA GX10 for local inference |
-| **Delivery** | Argo CD GitOps, GitHub Actions on self-hosted ARC runners, images on `ghcr.io/labrats-work` |
+| **Delivery** | Argo CD GitOps, GitHub Actions on self-hosted ARC runners, app images on `registry.bor.labrats.work` (Zot), key infrastructure images on `ghcr.io/labrats-work` |
 | **Platform** | Traefik, cert-manager, External Secrets + SOPS/age, Authelia + lldap SSO |
 | **Observability** | Prometheus, Grafana, Loki |
 | **IaC** | Terraform, Ansible |
